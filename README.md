@@ -1,8 +1,8 @@
-# Simple CDCL Solver
+# Simple CDCL-based SAT Solver
 
 This project was done as part of the COL876 (SAT Solvers and Automated Reasoning) course requirements.
 
-A basic CDCL solver has been implemented which utilises VSIDS for ordering
+A basic CDCL-based SAT solver has been implemented which utilises VSIDS for ordering
 variables until one point and then switches to Random Choice Ordering after a
 certain number of conflicts have been reached. Backjumping, which is crucial
 to CDCL Solvers is implemented by finding the UIP nodes, learning the new
